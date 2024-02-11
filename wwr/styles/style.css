@@ -1,28 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Handlee&family=Protest+Revolution&display=swap');
+
 content{max-width:1600px;margin: 0 auto;}
-nav a{text-align: center; color:#0a2864;text-decoration: none;}
+nav a{text-align: center; color:#0a2864;text-decoration: none;padding:35px}
 #hero-msg h1{text-align: center;}
 #hero-msg h4{text-align: center;}
 .button-box{text-align: center;}
 main section{text-align: center;}
+main section img{box-sizing: border-box;}
 #background{height:725px}
-body{background-color:#71a2c0 ;}
+body{background-color:#71a2c0 ;font-family: 'Protest+Revolution', 'Handlee', sans-serif;font-size: 22px;margin:0;padding:0;}
 header{background-color:white;}
 nav a:hover{background-color:#db8e1f ;color:aliceblue}
-.book{background-color: white; color:#0a2864;text-decoration: none;}
-.join{background-color: white;text-decoration: none;}
+.book{background-color: white; color:#0a2864;text-decoration: none;font-size: 18px;padding:15px 30px;margin-top: 50px;border-radius: 5px;}
+.join{background-color:#0a2864;text-decoration: none;font-size: 18px;padding:15px 30px;margin-top: 50px;border-radius: 5px;color:white}
 .book:hover{background-color: #db8e1f;color:white}
 .join:hover{background-color: #db8e1f;color:white}
 #background{background-color:#0a2864;}
-.msg{background-color:white;}
-footer{background-color: #db8e1f;color:black}
+.msg{background-color:white;line-height: 1.5em;padding: 35px;}
+footer{background-color: #ff9500;color:black}
 .logo{width:80px}
-.icon{width:80px}
+.icon{width:80px;padding-top: 10px;}
 #hero-img{width:100%}
-.home-title{color:white}
+.home-title{color:white;font-family: 'Protest+Revolution', 'Handlee', sans-serif;font-size: 2em;margin-top: 10px;}
 h4{color:#0a2864}
-.msg h2{color:#db8e1f}
-.msg p{color:#0a2864}
+.msg h2{color:#db8e1f;font-family: 'Protest+Revolution', 'Handlee', sans-serif;}
+.msg p{color:#0a2864;font-size: .8em;padding-bottom: 15px;}
 footer a{color:black;text-decoration: none;}
 footer a:hover{color:white}
 footer p{font-size: 1.2em;}
 footer p a:hover{text-decoration: underline;}
+h2{margin:0}
+#logo_link{padding-top:5px;}
+footer{padding: 25px 50px;margin-top: 200px;}
+footer .social img{padding-top: 15px;}
+.rivers-card, .camping-card, .rapids-card{margin: 200px 0;border-color: #0a2864;}
+.card-img{border: 10px solid black;}
