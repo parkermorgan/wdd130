@@ -6,6 +6,16 @@ nav{display:flex;justify-content: space-around;}
 
 nav a{text-align: center; color:#0a2864;text-decoration: none;padding:35px}
 
+
+#salmon {
+    display:grid;
+    grid-template-columns: auto;}
+#desolation {
+    display:grid;
+    grid-template-columns: auto;}
+#grand_canyon {
+    display:grid;
+    grid-template-columns: auto;}
 #hero {
     display:grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -103,6 +113,51 @@ h2{margin:0}
 footer .social img{padding-top: 15px;}
 
 .rivers-card, .camping-card, .rapids-card{margin: 200px 0;border-color: #0a2864;}
+
+#rivers_header{
+    margin-left:75px
+}
+
+#salmon_img, #desogray_img, #grandcanyon_img{
+    border:10px solid black;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px black;
+    margin: 75px}
+#salmon_img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#desogray_img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#grandcanyon_img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#salmon_h2, #deso_h2, #grand_h2{
+    margin: 20px;
+    margin-left: 75px;
+}
+#salmontext {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width:100%;
+    margin-top:150px;
+}
+#desotext {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width:100%;
+    margin-top:150px
+}
+#grandtext{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width:100%;
+    margin-top:150px
+}
 
 .rivers-card{
     grid-column: 2/4;
