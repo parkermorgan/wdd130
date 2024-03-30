@@ -51,7 +51,16 @@ body{
     margin-bottom: 30px;
     font-size: 70px;
     color:#014684;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, .5);   
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+.title2{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 70px;
+    color:#014684;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, .5); 
+    text-align: left;     
 }
 .content1{
     display:grid;
