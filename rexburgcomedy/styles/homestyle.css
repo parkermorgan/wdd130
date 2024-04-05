@@ -4,6 +4,48 @@ body{
     line-height: 46px;
 }
 
+.main-box{
+    display:grid;
+    background-color: lightgrey; 
+    
+ }
+ .header1{
+     width:100%;
+     margin:auto;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     padding-top: 10px;
+     display:grid;
+     grid-auto-flow: column;
+     background-color: #014684;
+ 
+ }
+ .topnav {
+   background-color: #014684;
+   overflow: hidden;
+ }
+ .topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 29px;
+ }
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ 
+ .nav_link{
+     text-align: center;
+     text-decoration: none;
+     font-size: 40px;
+     color:#f2f2f2;
+ }
+
+
 .home-box{
    display:grid;
    background-color: lightgrey;
