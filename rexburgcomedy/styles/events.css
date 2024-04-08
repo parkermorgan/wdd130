@@ -57,6 +57,7 @@ body{
     display:grid;
     grid-auto-flow: column;
     padding:10px;
+    align-items: center;
 }
 .content2{
     display:grid;
@@ -78,11 +79,12 @@ body{
     margin-top: 40px;
     font-size: 33px;
     margin-left: 30px;
-    line-height: 2.5em;
+    line-height: 1.2em;
     border: 6px solid #014684;
     border-radius: 25px;
     background-color:lightgrey ;
-    font-weight:bold
+    font-weight:bold;
+    padding:18px;
     
 }
 .footer1{
@@ -105,20 +107,22 @@ body{
     margin-top: 40px;
     font-size: 33px;
     margin-left: 30px;
-    line-height: 2.5em;
+    line-height: 1.2em;
     border: 6px solid #014684;
     border-radius: 25px;
     background-color: lightgrey;
     font-weight:bold;
+    padding:18px;
 }
 .eventinfo{
     margin-top: 40px;
     font-size: 31px;
     margin-left: 30px;
-    line-height: 3em;
+    line-height: 1.2em;
     font-size:33px;
     border: 6px solid #014684;
     border-radius: 25px;
     background-color: lightgrey;
     font-weight:bold;
+    padding:18px;
 }
