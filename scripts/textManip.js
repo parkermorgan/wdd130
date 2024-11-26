@@ -1,18 +1,20 @@
-// Function to handle button click
-function buttonClick() {
-    var resultText = document.getElementById("dynamic_text");
-    resultText.innerHTML = "Button was clicked!";
+function textToggle(){
+
+var toggleText = document.getElementById('toggleText')
+{
+        if (toggleText.innerHTML === "Original text") {
+            toggleText.innerHTML = "New text";
+        } else {
+            toggleText.innerHTML = "Original text";
+        }
 }
-
-// Add event listener to the button
-var button = document.getElementById("myButton");
-button.addEventListener("click", buttonClick);
-
-// Greet function and variable
-let name = "Parker";
-
-function greet(name) {
-    return `Hello ${name}!`; // Using template literals correctly
 }
-
-console.log(greet(name)); // Logging the greeting message
+let imgButton = document.getElementById('imgButton')
+let img = document.getElementById('img')
+    imgButton.addEventListener('click', function(){
+        if (img.src.includes('images/rexburg-temple.webp')){
+            img.src='images/portland-temple.webp';
+        } else {
+            img.src = 'images/rexburg-temple.webp';
+        }
+    })
